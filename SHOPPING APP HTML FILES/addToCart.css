@@ -1,0 +1,46 @@
+/*----------cart css file----------*/
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.card{
+    border: 1px soild black;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+.card img{
+    width: 300px;
+    padding: 10px;
+}
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+.button{
+    border: 2px solid #e1701a;
+    background: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin :20px;
+    padding: 5px 10px;
+}
+button:hover{
+    box-shadow:0 5px 5px #e1701a inset;
+}
+.cart{
+    width: 250px;
+    float : right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 100%;
+}
+.cartImg > img {
+    width: 200px;
+}
